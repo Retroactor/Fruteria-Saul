@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Frutar Selecta Saúl | Frutas y Verduras</title>
+  <meta name="description" content="Frutar Selecta Saúl: frutas y verduras frescas. Información, fotos de productos y contacto." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css" />
+</head>
+<body>
+  <!-- Encabezado -->
+  <header>
+    <div class="container">
+      <nav aria-label="Principal">
+        <div class="brand">
+          <img src="./assets/logo-frutar-selecta-saul.png" alt="Frutar Selecta Saúl" />
+        </div>
+        <div class="nav-links" role="tablist" aria-label="Categorías">
+          <button class="tab active" data-tab="frutas" role="tab" aria-selected="true">Frutas</button>
+          <button class="tab" data-tab="verduras" role="tab" aria-selected="false">Verduras</button>
+          <button class="tab" data-tab="legumbres" role="tab" aria-selected="false">Legumbres</button>
+          <button class="tab" data-tab="embasados" role="tab" aria-selected="false">Embasados</button>
+          <button class="tab" data-tab="contacto" role="tab" aria-selected="false">Contacto</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero / Intro -->
+  <section class="container hero">
+    <div class="card">
+      <h2 class="section-title">Fresco, local y de temporada</h2>
+      <p class="lead">Descubre nuestra selección de frutas y verduras. Galería sencilla sin precios para que sea facilísimo añadir nuevas fotos de producto.</p>
+      <div class="mt-4">
+        <a class="btn" href="#frutas">Ver productos</a>
+      </div>
+      <ul class="list mt-4">
+        <li><strong>Horario:</strong> <span id="horario">L–V 09:00–14:00 y 16:30–20:30 · Sáb 09:00–14:30</span></li>
+        <li><strong>Teléfono:</strong> <a href="tel:+34-600-000-000" id="telefono">+34 600 000 000</a></li>
+        <li><strong>Ubicación:</strong> <span id="direccion">(Confirma) Calle Alcalde de Baranda 44, Madrid</span></li>
+        <li><strong>Reparto:</strong> <span id="reparto">(Confirma) Repartimos en un radio de X km • Envíos el mismo día</span></li>
+      </ul>
+    </div>
+    <div class="card" aria-hidden="true">
+      <img src="./assets/local/entrada-local.jpg" alt="Entrada de Frutar Selecta Saúl" class="hero-img"/>
+    </div>
+  </section>
+
+  <!-- Contenido de las pestañas -->
+  <main class="container">
+    <!-- Sección Frutas -->
+    <section id="frutas" class="tab-content active">
+      <h2 class="section-title">Frutas</h2>
+      <p class="lead">Nuestra selección de frutas frescas y de temporada.</p>
+      <div class="grid">
+        <article class="product">
+          <img src="./assets/frutas/manzana.jpg" alt="Manzana Royal Gala" />
+          <div class="info">
+            <div class="name">Manzana Royal Gala</div>
+            <div class="note">De temporada</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/frutas/platano.jpg" alt="Plátano de Canarias" />
+          <div class="info">
+            <div class="name">Plátano de Canarias</div>
+            <div class="note">Dulce y aromático</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/frutas/fresas.jpg" alt="Fresas" />
+          <div class="info">
+            <div class="name">Fresas</div>
+            <div class="note">Perfectas para postres</div>
+          </div>
+        </article>
+        <!-- Productos adicionales de frutas -->
+        <article class="product">
+          <img src="./assets/frutas/melones.jpg" alt="Melones" />
+          <div class="info">
+            <div class="name">Melones</div>
+            <div class="note">Dulces y jugosos</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/frutas/pina.jpg" alt="Piña" />
+          <div class="info">
+            <div class="name">Piña</div>
+            <div class="note">Tropical y refrescante</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/frutas/kiwi-verde.jpg" alt="Kiwi Verde Zespri" />
+          <div class="info">
+            <div class="name">Kiwi Verde Zespri</div>
+            <div class="note">Rico en vitamina C</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/frutas/kiwi-amarillo.jpg" alt="Kiwi Amarillo" />
+          <div class="info">
+            <div class="name">Kiwi Amarillo</div>
+            <div class="note">Más dulce y suave</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/frutas/pink-lady.jpg" alt="Pink Lady" />
+          <div class="info">
+            <div class="name">Pink Lady</div>
+            <div class="note">Crujiente y dulce</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/frutas/golden.jpg" alt="Manzana Golden" />
+          <div class="info">
+            <div class="name">Manzana Golden</div>
+            <div class="note">Clásica y versátil</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/frutas/granny-smith.jpg" alt="Granny Smith" />
+          <div class="info">
+            <div class="name">Granny Smith</div>
+            <div class="note">Ácida y crujiente</div>
+          </div>
+        </article>
+        <!-- Más frutas -->
+        <article class="product">
+          <img src="./assets/frutas/naranjas-mesa.jpg" alt="Naranjas de mesa" />
+          <div class="info">
+            <div class="name">Naranjas de mesa</div>
+            <div class="note">Por unidad</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/frutas/naranjas-zumo.jpg" alt="Naranjas de zumo" />
+          <div class="info">
+            <div class="name">Naranjas de zumo</div>
+            <div class="note">En bolsa</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/frutas/mandarina.jpg" alt="Mandarina" />
+          <div class="info">
+            <div class="name">Mandarina</div>
+            <div class="note">Dulce y fácil de pelar</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/frutas/arandanos.jpg" alt="Arándanos" />
+          <div class="info">
+            <div class="name">Arándanos</div>
+            <div class="note">Antioxidantes naturales</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/frutas/frambuesa.jpg" alt="Frambuesa" />
+          <div class="info">
+            <div class="name">Frambuesa</div>
+            <div class="note">Dulce y aromática</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/frutas/granada.jpg" alt="Granada" />
+          <div class="info">
+            <div class="name">Granada</div>
+            <div class="note">Rica en antioxidantes</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/frutas/pera-conferencia.jpg" alt="Pera Conferencia" />
+          <div class="info">
+            <div class="name">Pera Conferencia</div>
+            <div class="note">Dulce y jugosa</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/frutas/mango.jpg" alt="Mango" />
+          <div class="info">
+            <div class="name">Mango</div>
+            <div class="note">Tropical y dulce</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/frutas/uva-verde.jpg" alt="Uva verde sin pepita" />
+          <div class="info">
+            <div class="name">Uva verde sin pepita</div>
+            <div class="note">Dulce y sin semillas</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/frutas/uva-negra.jpg" alt="Uva negra sin pepita" />
+          <div class="info">
+            <div class="name">Uva negra sin pepita</div>
+            <div class="note">Intensa y sin semillas</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/frutas/limas.jpg" alt="Limas" />
+          <div class="info">
+            <div class="name">Limas</div>
+            <div class="note">Ácidas y refrescantes</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/frutas/limones.jpg" alt="Limones" />
+          <div class="info">
+            <div class="name">Limones</div>
+            <div class="note">Ácidos y aromáticos</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/frutas/caqui.jpg" alt="Caqui" />
+          <div class="info">
+            <div class="name">Caqui</div>
+            <div class="note">Dulce y cremoso</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/frutas/persimon.jpg" alt="Persimon" />
+          <div class="info">
+            <div class="name">Persimon</div>
+            <div class="note">Dulce y firme</div>
+          </div>
+        </article>
+        <!-- Frutas adicionales -->
+        <article class="product">
+          <img src="./assets/frutas/melocoton.jpg" alt="Melocotón" />
+          <div class="info">
+            <div class="name">Melocotón</div>
+            <div class="note">Dulce y jugoso</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/frutas/pera-ercolina.jpg" alt="Pera Ercolina" />
+          <div class="info">
+            <div class="name">Pera Ercolina</div>
+            <div class="note">Crujiente y dulce</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/frutas/pitahaya.jpg" alt="Pitahaya" />
+          <div class="info">
+            <div class="name">Pitahaya</div>
+            <div class="note">Exótica y refrescante</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/frutas/sandia.jpg" alt="Sandía" />
+          <div class="info">
+            <div class="name">Sandía</div>
+            <div class="note">Refrescante y dulce</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Sección Verduras -->
+    <section id="verduras" class="tab-content">
+      <h2 class="section-title">Verduras</h2>
+      <p class="lead">Verduras frescas y de temporada para todos tus platos.</p>
+      <div class="grid">
+        <article class="product">
+          <img src="./assets/verduras/tomate.jpg" alt="Tomate rama" />
+          <div class="info">
+            <div class="name">Tomate rama</div>
+            <div class="note">Ideal para ensalada</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/zanahoria.jpg" alt="Zanahoria" />
+          <div class="info">
+            <div class="name">Zanahoria</div>
+            <div class="note">Crujiente</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/pimiento.jpg" alt="Pimiento rojo" />
+          <div class="info">
+            <div class="name">Pimiento rojo</div>
+            <div class="note">Carnoso</div>
+          </div>
+        </article>
+        <!-- Productos adicionales de verduras -->
+        <article class="product">
+          <img src="./assets/verduras/patatas.jpg" alt="Patatas" />
+          <div class="info">
+            <div class="name">Patatas</div>
+            <div class="note">Para guisar y freír</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/judias-verdes.jpg" alt="Judías verdes" />
+          <div class="info">
+            <div class="name">Judías verdes</div>
+            <div class="note">Tiernas y frescas</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/calabacin.jpg" alt="Calabacín" />
+          <div class="info">
+            <div class="name">Calabacín</div>
+            <div class="note">Versátil en cocina</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/pimiento-verde.jpg" alt="Pimiento verde" />
+          <div class="info">
+            <div class="name">Pimiento verde</div>
+            <div class="note">Crujiente</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/pimiento-rojo-italiano.jpg" alt="Pimiento rojo italiano" />
+          <div class="info">
+            <div class="name">Pimiento rojo italiano</div>
+            <div class="note">Dulce y aromático</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/pimiento-gordo.jpg" alt="Pimiento normal gordo" />
+          <div class="info">
+            <div class="name">Pimiento normal gordo</div>
+            <div class="note">Carnoso y jugoso</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/cebolla.jpg" alt="Cebolla" />
+          <div class="info">
+            <div class="name">Cebolla</div>
+            <div class="note">Para guisar</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/coliflor.jpg" alt="Coliflor" />
+          <div class="info">
+            <div class="name">Coliflor</div>
+            <div class="note">Fresca y blanca</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/repollo.jpg" alt="Repollo" />
+          <div class="info">
+            <div class="name">Repollo</div>
+            <div class="note">Crujiente</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/brocoli.jpg" alt="Brócoli" />
+          <div class="info">
+            <div class="name">Brócoli</div>
+            <div class="note">Rico en vitaminas</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/lechuga-batavia.jpg" alt="Lechuga Batavia" />
+          <div class="info">
+            <div class="name">Lechuga Batavia</div>
+            <div class="note">Crujiente</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/lechuga-trocadero.jpg" alt="Lechuga Trocadero" />
+          <div class="info">
+            <div class="name">Lechuga Trocadero</div>
+            <div class="note">Suave y tierna</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/lechuga-hoja-roble.jpg" alt="Lechuga Hoja de Roble" />
+          <div class="info">
+            <div class="name">Lechuga Hoja de Roble</div>
+            <div class="note">Colorida y sabrosa</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/lechuga-romana.jpg" alt="Lechuga Romana" />
+          <div class="info">
+            <div class="name">Lechuga Romana</div>
+            <div class="note">Crujiente y alargada</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/cebolleta.jpg" alt="Cebolleta" />
+          <div class="info">
+            <div class="name">Cebolleta</div>
+            <div class="note">Suave y aromática</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/cebolla-dulce.jpg" alt="Cebolla dulce" />
+          <div class="info">
+            <div class="name">Cebolla dulce</div>
+            <div class="note">Muy suave</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/cebolla-guisar.jpg" alt="Cebolla para guisar" />
+          <div class="info">
+            <div class="name">Cebolla para guisar</div>
+            <div class="note">Ideal para cocinar</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/batata.jpg" alt="Batata" />
+          <div class="info">
+            <div class="name">Batata</div>
+            <div class="note">Dulce y nutritiva</div>
+          </div>
+        </article>
+        <!-- Más verduras -->
+        <article class="product">
+          <img src="./assets/verduras/perejil.jpg" alt="Perejil" />
+          <div class="info">
+            <div class="name">Perejil</div>
+            <div class="note">Aromático y fresco</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/cabeza-ajos.jpg" alt="Cabeza de ajos" />
+          <div class="info">
+            <div class="name">Cabeza de ajos</div>
+            <div class="note">Aromático y saludable</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/albahaca.jpg" alt="Albahaca" />
+          <div class="info">
+            <div class="name">Albahaca</div>
+            <div class="note">Aromática y fresca</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/guisantes.jpg" alt="Guisantes" />
+          <div class="info">
+            <div class="name">Guisantes</div>
+            <div class="note">Dulces y tiernos</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/tomate-iberico.jpg" alt="Tomate ibérico" />
+          <div class="info">
+            <div class="name">Tomate ibérico</div>
+            <div class="note">Sabor intenso</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/tomate-bolitas-de-mazaron.jpg" alt="Tomate bolitas de mazaron" />
+          <div class="info">
+            <div class="name">Tomate bolitas de mazaron</div>
+            <div class="note">Pequeños y dulces</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/tomate-de-ensalada.jpg" alt="Tomate de ensalada" />
+          <div class="info">
+            <div class="name">Tomate de ensalada</div>
+            <div class="note">Ideal para ensaladas</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/tomate-maduro.jpg" alt="Tomate maduro" />
+          <div class="info">
+            <div class="name">Tomate maduro</div>
+            <div class="note">Sabor concentrado</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/puerros.jpg" alt="Puerros" />
+          <div class="info">
+            <div class="name">Puerros</div>
+            <div class="note">Suaves y aromáticos</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/esparrago.jpg" alt="Espárrago" />
+          <div class="info">
+            <div class="name">Espárrago</div>
+            <div class="note">Tiernos y delicados</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/pepino.jpg" alt="Pepino" />
+          <div class="info">
+            <div class="name">Pepino</div>
+            <div class="note">Refrescante y crujiente</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/chalota.jpg" alt="Chalota" />
+          <div class="info">
+            <div class="name">Chalota</div>
+            <div class="note">Suave y aromática</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/aguacate.jpg" alt="Aguacate" />
+          <div class="info">
+            <div class="name">Aguacate</div>
+            <div class="note">Cremoso y nutritivo</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/champinon.jpg" alt="Champiñón" />
+          <div class="info">
+            <div class="name">Champiñón</div>
+            <div class="note">Versátil en cocina</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/rucula.jpg" alt="Rúcula" />
+          <div class="info">
+            <div class="name">Rúcula</div>
+            <div class="note">Picante y aromática</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/espinaca.jpg" alt="Espinaca" />
+          <div class="info">
+            <div class="name">Espinaca</div>
+            <div class="note">Rica en hierro</div>
+          </div>
+        </article>
+        <!-- Olivas al peso -->
+        <article class="product">
+          <img src="./assets/verduras/olivas-campo-real.jpg" alt="Olivas Campo Real" />
+          <div class="info">
+            <div class="name">Olivas Campo Real</div>
+            <div class="note">Al peso</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/olivas-gordal.jpg" alt="Olivas Gordal" />
+          <div class="info">
+            <div class="name">Olivas Gordal</div>
+            <div class="note">Al peso</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/olivas-manzanilla.jpg" alt="Olivas Manzanilla" />
+          <div class="info">
+            <div class="name">Olivas Manzanilla</div>
+            <div class="note">Al peso</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/cogollos-berenjena.jpg" alt="Cogollos de berenjena" />
+          <div class="info">
+            <div class="name">Cogollos de berenjena</div>
+            <div class="note">Al peso</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/verduras/alcachofa.jpg" alt="Alcachofa" />
+          <div class="info">
+            <div class="name">Alcachofa</div>
+            <div class="note">Fresca y tierna</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Sección Legumbres -->
+    <section id="legumbres" class="tab-content">
+      <h2 class="section-title">Legumbres</h2>
+      <p class="lead">Legumbres secas y cocidas para una alimentación saludable.</p>
+      <div class="grid">
+        <article class="product">
+          <img src="./assets/legumbres/garbanzos.jpg" alt="Garbanzos" />
+          <div class="info">
+            <div class="name">Garbanzos</div>
+            <div class="note">Secos y cocidos</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/legumbres/lentejas.jpg" alt="Lentejas" />
+          <div class="info">
+            <div class="name">Lentejas</div>
+            <div class="note">Rojas y pardas</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/legumbres/alubias.jpg" alt="Alubias" />
+          <div class="info">
+            <div class="name">Alubias</div>
+            <div class="note">Blancas y pintas</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/legumbres/soja.jpg" alt="Soja" />
+          <div class="info">
+            <div class="name">Soja</div>
+            <div class="note">Proteína vegetal</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/legumbres/guisantes-secos.jpg" alt="Guisantes secos" />
+          <div class="info">
+            <div class="name">Guisantes secos</div>
+            <div class="note">Para guisos</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/legumbres/habas.jpg" alt="Habas" />
+          <div class="info">
+            <div class="name">Habas</div>
+            <div class="note">Secas y frescas</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Sección Embasados -->
+    <section id="embasados" class="tab-content">
+      <h2 class="section-title">Embasados</h2>
+      <p class="lead">Productos envasados y conservas de calidad.</p>
+      <div class="grid">
+        <article class="product">
+          <img src="./assets/embasados/aceitunas.jpg" alt="Aceitunas" />
+          <div class="info">
+            <div class="name">Aceitunas</div>
+            <div class="note">Verdes y negras</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/embasados/atun.jpg" alt="Atún" />
+          <div class="info">
+            <div class="name">Atún</div>
+            <div class="note">En aceite y natural</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/embasados/sardinas.jpg" alt="Sardinas" />
+          <div class="info">
+            <div class="name">Sardinas</div>
+            <div class="note">En aceite de oliva</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/embasados/maiz.jpg" alt="Maíz" />
+          <div class="info">
+            <div class="name">Maíz</div>
+            <div class="note">En grano dulce</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/embasados/espinacas.jpg" alt="Espinacas" />
+          <div class="info">
+            <div class="name">Espinacas</div>
+            <div class="note">Congeladas</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/embasados/guisantes.jpg" alt="Guisantes" />
+          <div class="info">
+            <div class="name">Guisantes</div>
+            <div class="note">Congelados</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/embasados/judias-verdes.jpg" alt="Judías verdes" />
+          <div class="info">
+            <div class="name">Judías verdes</div>
+            <div class="note">Congeladas</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/embasados/alcachofas.jpg" alt="Alcachofas" />
+          <div class="info">
+            <div class="name">Alcachofas</div>
+            <div class="note">En conserva</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/embasados/espárragos.jpg" alt="Espárragos" />
+          <div class="info">
+            <div class="name">Espárragos</div>
+            <div class="note">En conserva</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/embasados/pimientos.jpg" alt="Pimientos" />
+          <div class="info">
+            <div class="name">Pimientos</div>
+            <div class="note">Asados en conserva</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/embasados/tomate-frito.jpg" alt="Tomate frito" />
+          <div class="info">
+            <div class="name">Tomate frito</div>
+            <div class="note">Para cocinar</div>
+          </div>
+        </article>
+        <article class="product">
+          <img src="./assets/embasados/aceite-oliva.jpg" alt="Aceite de oliva" />
+          <div class="info">
+            <div class="name">Aceite de oliva</div>
+            <div class="note">Virgen extra</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contacto / Ubicación -->
+    <section id="contacto" class="tab-content">
+    <h2 class="section-title">Contáctanos</h2>
+    <div class="contact-grid">
+      <div class="card">
+        <h3>Datos</h3>
+        <ul class="list">
+          <li><strong>Nombre:</strong> Frutar Selecta Saúl</li>
+          <li><strong>Teléfono:</strong> <a href="tel:+34-600-000-000">+34 600 000 000</a></li>
+          <li><strong>WhatsApp:</strong> <a href="https://wa.me/34600000000" rel="noopener">Escríbenos</a></li>
+          <li><strong>Dirección:</strong> Calle Alcalde de Baranda 44, Madrid (por confirmar)</li>
+          <li><strong>Horario:</strong> L–V 09:00–14:00 y 16:30–20:30 · Sáb 09:00–14:30</li>
+          <li><strong>Reparto:</strong> Radio X km / Zonas: <em>por confirmar</em></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Cómo llegar</h3>
+        <p class="mt-2">Pulsa para abrir el mapa:</p>
+        <a class="btn" href="https://maps.google.com" target="_blank" rel="noopener">Abrir en Google Maps</a>
+        <p class="mt-3"><small>También hacemos encargos por teléfono o WhatsApp.</small></p>
+      </div>
+    </div>
+    </section>
+  </main>
+
+  <footer class="container mt-6">
+    <div class="card">
+      <div class="footer-bar">
+        <small>© <span id="year"></span> Frutar Selecta Saúl · Todos los derechos reservados</small>
+        <small>Hecho con ❤ y productos frescos</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/main.js" defer></script>
+</body>
+</html>
